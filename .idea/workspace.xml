@@ -41,9 +41,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.arraysSum">
+  <component name="RunManager" selected="Application.bellowAvarage">
     <configuration name="arraysSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section10.arraysSum" />
+      <module name="oop-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bellowAvarage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.bellowAvarage" />
       <module name="oop-java-course" />
       <extension name="coverage">
         <pattern>
@@ -70,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bellowAvarage" />
         <item itemvalue="Application.arraysSum" />
         <item itemvalue="Application.biggerPosition" />
       </list>
