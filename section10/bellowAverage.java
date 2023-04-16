@@ -2,7 +2,7 @@ package section10;
 
 import java.util.Scanner;
 
-public class bellowAvarage {
+public class bellowAverage {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
