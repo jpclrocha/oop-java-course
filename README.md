@@ -13,3 +13,4 @@ Course link: https://www.udemy.com/course/java-curso-completo/
 * Enum, compositions
 * OOP concepts: encapsulation, abstraction, inheritance and polymorphism
 * Working with Files (File, FileReader, BufferedReader, FileWriter and BufferedWriter)
+* Interfaces and its benefits
