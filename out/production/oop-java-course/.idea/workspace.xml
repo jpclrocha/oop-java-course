@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d4bfe42-33d1-4269-b33f-98b8215e3f3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop-java-course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section10/evenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oop-java-course/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/arraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/arraysSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/bellowAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/biggerPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/evenNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/evenNumbersAverage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/heightProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oop-java-course/section10/negativeProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/05-exercicios-de-fixacao-vetores.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/05-exercicios-de-fixacao-vetores.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/arraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/arraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/arraysSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/arraysSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/bellowAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/bellowAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/biggerPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/biggerPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/evenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/evenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/evenNumbersAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/evenNumbersAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/heightProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/heightProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/negativeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/problems/negativeProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +44,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OTlMu5SB1BWnNmAJzaun7p6FaV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,13 +59,70 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="biggerPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section10.biggerPosition" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jpclr\Desktop\Programming\oop-java-course\section10\problems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.hotel.exercise.Main" />
       <module name="oop-java-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section10.*" />
+          <option name="PATTERN" value="section10.hotel.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.problems.arraysSum" />
+      <module name="oop-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section10.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bellowAvarage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.bellowAvarage" />
+      <module name="oop-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section10.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="biggerPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.problems.biggerPosition" />
+      <module name="oop-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section10.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="evenNumbersAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="section10.problems.evenNumbersAverage" />
+      <module name="oop-java-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="section10.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,6 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.evenNumbersAverage" />
+        <item itemvalue="Application.bellowAvarage" />
+        <item itemvalue="Application.arraysSum" />
         <item itemvalue="Application.biggerPosition" />
       </list>
     </recent_temporary>

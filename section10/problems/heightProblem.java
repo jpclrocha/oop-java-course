@@ -1,4 +1,4 @@
-package section10;
+package section10.problems;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
