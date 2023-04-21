@@ -46,7 +46,7 @@
       <recent name="C:\Users\jpclr\Desktop\Programming\oop-java-course\section10\problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.arraysSum">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="section10.hotel.exercise.Main" />
       <module name="oop-java-course" />
@@ -114,10 +114,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arraysSum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.evenNumbersAverage" />
         <item itemvalue="Application.bellowAvarage" />
-        <item itemvalue="Application.arraysSum" />
         <item itemvalue="Application.biggerPosition" />
       </list>
     </recent_temporary>
