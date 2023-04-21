@@ -35,7 +35,7 @@ public class Main {
         for(int row = 0; row < m; row++){
             for (int column = 0; column < n; column++){
                 if(mat[row][column] == number){
-                    System.out.println("Positio: " + row + "," + column + ":");
+                    System.out.println("Position: " + row + "," + column);
                     if (column > 0){
                         System.out.println("Left: " + mat[row][column-1]);
                     }
@@ -52,12 +52,6 @@ public class Main {
             }
             System.out.println();
         }
-
-
-
-
-
-
 
         sc.close();
     }
