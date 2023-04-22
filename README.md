@@ -9,6 +9,6 @@ Course link: https://www.udemy.com/course/java-curso-completo/
 * OOP basics: methods, classes, objects and attributes
 * Working with lists (Array, ArrayList, etc)
 * Working with dates (LocalDate, LocalDateTime, Instant, Calendar (for legacy-code), etc)
-* Basics of git and github
+* Basics of Git and GitHub
 * Enum, compositions
 * OOP concepts: encapsulation, abstraction, inheritance and polymorphism
