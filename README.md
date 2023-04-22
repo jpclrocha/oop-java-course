@@ -1,4 +1,4 @@
-# Oop Java Course
+# OOP Java Course
 
 Repository for the oop java course exercises from Nelio Alves.
 
