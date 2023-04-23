@@ -1,4 +1,5 @@
-package section15exceptions.awfulway;
+package section15exceptions.badway;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -8,12 +9,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws DateTimeParseException {
         /*
-        Awful way of handling exceptions
-        The biggest problem is validating the values in the main class, and not in the reservation
-        Problem 1: exception to check in date being greater than check out
-        Problem 2: exception to check if any of the dates is in the past
-        Must use custom exceptions to treat that, will update that in the other packages (bad way and good way)
+         Bad way of handling exceptions
+         Correction of previous version (awful way package): passed the responsibility os checking values to the Reservation class
+         Problems: not throwing exceptions, just returning a string if something that was not expected happens
+         Also a bad solution, but better than the awful one
         */
+
 
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
@@ -32,7 +33,7 @@ public class Main {
         if (!checkout.isAfter(checkin)) {
             System.out.println("Error in reservation: Check-out date must be after check-in date");
         } else {
-            Reservation r = new Reservation(number, checkin, checkout);
+            Reservation2 r = new Reservation2(number, checkin, checkout);
             System.out.println(r);
 
             System.out.println();
@@ -43,15 +44,13 @@ public class Main {
             System.out.print("Check-out date (DD/MM/YYYY): ");
             checkout = LocalDate.parse(sc.nextLine(), dtf);
 
-            LocalDate now = LocalDate.now();
-            if (checkin.isBefore(now) || checkout.isBefore(now)) {
-                System.out.println("Error in reservation: Reservation dates for update must be future dates");
-            } else if (!checkout.isAfter(checkin)) {
-                System.out.println("Error in reservation: Check-out date must be after check-in date");
+            String error = r.updateDates(checkin, checkout);
+            if (error != null) {
+                System.out.println("Error in reservation: " + error);
             } else {
-                r.updateDates(checkin, checkout);
                 System.out.println(r);
             }
+
         }
 
 
