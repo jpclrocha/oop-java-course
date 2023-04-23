@@ -1,4 +1,4 @@
-package section15exceptions.goodway;
+package section15exceptions.exercise1.goodway;
 
 
 import java.time.LocalDate;

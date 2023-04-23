@@ -1,16 +1,19 @@
-package section15exceptions.badway;
+package section15exceptions.exercise1.goodway;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
-public class Reservation2 {
+public class Reservation3 {
     private static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
     private Integer roomNumber;
     private LocalDate checkin;
     private LocalDate checkout;
 
-    public Reservation2(Integer roomNumber, LocalDate checkin, LocalDate checkout) {
+    public Reservation3(Integer roomNumber, LocalDate checkin, LocalDate checkout) throws ReservationException {
+        if (!checkout.isAfter(checkin)) {
+            throw new ReservationException("Check-out date must be after check-in date!");
+        }
         this.roomNumber = roomNumber;
         this.checkin = checkin;
         this.checkout = checkout;
@@ -36,17 +39,16 @@ public class Reservation2 {
         return ChronoUnit.DAYS.between(checkin, checkout);
     }
 
-    public String updateDates(LocalDate checkin, LocalDate checkout) {
+    public void updateDates(LocalDate checkin, LocalDate checkout) throws ReservationException {
         LocalDate now = LocalDate.now();
         if (checkin.isBefore(now) || checkout.isBefore(now)) {
-            return "Reservation dates for update must be future dates";
+            throw new ReservationException("Reservation dates for update must be future dates");
         }
         if (!checkout.isAfter(checkin)) {
-            return "Error in reservation: Check-out date must be after check-in date";
+            throw new ReservationException("Error in reservation: Check-out date must be after check-in date");
         }
         this.checkin = checkin;
         this.checkout = checkout;
-        return null;
     }
 
     @Override
