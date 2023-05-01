@@ -1,6 +1,6 @@
 package section18interfaces.exercise1.usingInterface.model.services;
 
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
     public double tax(double amount) {
         if (amount <= 100) {
             return amount * 0.2;
