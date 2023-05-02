@@ -4,7 +4,7 @@ Repository for the oop java course exercises from Nelio Alves.
 
 Course link: https://www.udemy.com/course/java-curso-completo/
 
-# What i learned so far
+# What I learned so far
 
 * OOP basics: methods, classes, objects and attributes
 * Working with lists (Array, ArrayList, etc)
@@ -12,3 +12,5 @@ Course link: https://www.udemy.com/course/java-curso-completo/
 * Basics of Git and GitHub
 * Enum, compositions
 * OOP concepts: encapsulation, abstraction, inheritance and polymorphism
+* Working with Files (File, FileReader, BufferedReader, FileWriter and BufferedWriter)
+* Interfaces and its benefits
