@@ -14,3 +14,6 @@ Course link: https://www.udemy.com/course/java-curso-completo/
 * OOP concepts: Encapsulation, Abstraction, Inheritance and Polymorphism
 * Working with Files (File, FileReader, BufferedReader, FileWriter and BufferedWriter)
 * Interfaces
+* Generics
+* Set and Map
+* Functional programming and lambda expressions
