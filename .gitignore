@@ -15,6 +15,7 @@
 .idea/**/modules.xml
 .idea/**/misc.xml
 .idea/**/discord.xml
+.idea/codeStyles
 
 # AWS User-specific
 .idea/**/aws.xml
